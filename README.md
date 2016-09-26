@@ -3,9 +3,9 @@ Repository for Home Energy Audit Application for Android Enabled Devices. Senior
 
 Team members include:
 
-Troy Gamboa
-Julian Hermes
-Jake Hagen
-Bryan Potter
+Troy Gamboa   
+Julian Hermes  
+Jake Hagen  
+Bryan Potter  
 
-Dr. A. A. Teate
+Dr. A. A. Teate  

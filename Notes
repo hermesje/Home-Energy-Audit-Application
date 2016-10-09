@@ -1,1 +1,7 @@
 New file for collaborators to pull and push notes as time goes by. 
+
+--Troy:
+
+(10/09/16) 
+  Created an EC2 website that is linked to and RDS database. Will edit as need be.
+  Public DNS can be found here: http://ec2-54-173-111-104.compute-1.amazonaws.com/ 

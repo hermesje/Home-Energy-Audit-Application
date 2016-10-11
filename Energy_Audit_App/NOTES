@@ -1,0 +1,14 @@
+New file for collaborators to pull and push notes as time goes by. 
+-------------------------------------------------------------------------
+(10/09/16) 
+  Created an EC2 website that is linked to an RDS database. Will edit as need be.
+  Public DNS can be found here: http://ec2-54-173-111-104.compute-1.amazonaws.com
+  
+  Also created another RDS MySQL instance linked to a separate EC2 instance using phpMyAdmin.
+  Can be reached here: http://54.161.223.14/phpmyadmin/
+
+(10/10/16)
+  Pushed the android source code to be integrated to the EC2 server in the future.
+  Will be fixing bug that does not allow app to launch, although everything compiles.
+  
+--Troy 

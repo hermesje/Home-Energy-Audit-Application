@@ -18,7 +18,6 @@ File for collaborators to pull and push notes as time goes by.
   All app does is parse the json specified for the tutorial, but we will specify an api soon.
   
   The EC2 and RDS servers are still up and running, and will be working with phpmyadmin to create a more structured database.
-  
   Once these two objectives are accomplished, we can then work on linking the database to the application.
   
 --Troy 

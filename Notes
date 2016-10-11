@@ -9,5 +9,6 @@ New file for collaborators to pull and push notes as time goes by.
 
 (10/10/16)
   Pushed the android source code to be integrated to the EC2 server in the future.
+  Will be fixing bug that does not allow app to launch, although everything compiles.
   
 --Troy 

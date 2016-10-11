@@ -1,30 +1,28 @@
 
 
 
-        package com.example.julianhermes.energy_audit_app;
+package com.example.julianhermes.energy_audit_app;
 
-        import android.app.ProgressDialog;
-        import android.os.AsyncTask;
-        import android.os.Bundle;
-        import android.support.v7.app.AppCompatActivity;
-        import android.util.Log;
-        import android.widget.ListAdapter;
-        import android.widget.ListView;
-        import android.widget.SimpleAdapter;
-        import android.widget.Toast;
+import android.app.ProgressDialog;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+import android.widget.SimpleAdapter;
+import android.widget.Toast;
 
-        import com.example.julianhermes.energy_audit_app.HttpHandler;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
-        import org.json.JSONArray;
-        import org.json.JSONException;
-        import org.json.JSONObject;
+import java.util.ArrayList;
+import java.util.HashMap;
 
-        import java.util.ArrayList;
-        import java.util.HashMap;
+import info.androidhive.jsonparsing.R;
 
-        import info.androidhive.jsonparsing.R;
-
-        public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     private String TAG = MainActivity.class.getSimpleName();
 
@@ -41,12 +39,12 @@
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_energy_audit_application);
 
-        contactList = new ArrayList<>();
+       contactList = new ArrayList<>();
 
         lv = (ListView) findViewById(R.id.list);
 
         new GetContacts().execute();
-    }
+   }
 
     /**
      * Async task class to get json by making HTTP call

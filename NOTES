@@ -11,4 +11,12 @@ New file for collaborators to pull and push notes as time goes by.
   Pushed the android source code to be integrated to the EC2 server in the future.
   Will be fixing bug that does not allow app to launch, although everything compiles.
   
+(10/11/16)
+  Fixed bug that wouldn't allow app to launch. Some code from the tutorial was kept in, when local packages should have been referenced.
+  All app does is parse the json specified for the tutorial, but we will specify an api soon.
+  
+  The EC2 and RDS servers are still up and running, and will be working with phpmyadmin to create a more structured database.
+  
+  Once these two objectives are accomplished, we can then work on linking the database to the application.
+  
 --Troy 
